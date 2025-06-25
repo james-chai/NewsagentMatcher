@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsagentMatcher.Core", "..\NewsagentMatcher.Core\NewsagentMatcher.Core.csproj", "{D83676D5-D9CA-4C53-9E6A-F362C9612890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsagentMatcher.Tests", "..\NewsagentMatcher.Tests\NewsagentMatcher.Tests.csproj", "{5FE5F1CB-35F7-4CF0-B22B-A53521E4D84A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D83676D5-D9CA-4C53-9E6A-F362C9612890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83676D5-D9CA-4C53-9E6A-F362C9612890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83676D5-D9CA-4C53-9E6A-F362C9612890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83676D5-D9CA-4C53-9E6A-F362C9612890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE5F1CB-35F7-4CF0-B22B-A53521E4D84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE5F1CB-35F7-4CF0-B22B-A53521E4D84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE5F1CB-35F7-4CF0-B22B-A53521E4D84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE5F1CB-35F7-4CF0-B22B-A53521E4D84A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7035DC3E-93E4-4C2F-9854-022F7C84F654}
+	EndGlobalSection
+EndGlobal
