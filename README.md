@@ -1,10 +1,10 @@
-﻿NewsagentMatcher.Console - Setup Guide
+﻿# NewsagentMatcher.Console - Setup Guide
 
 A .NET 8 console application used to validate and match newsagent data using customizable strategies.
 
 ---
 
-📦 REQUIREMENTS
+## 📦 REQUIREMENTS
 
 - ✅ .NET 8 SDK (8.0.0 or later)
   Download: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
@@ -17,7 +17,7 @@ If the version is not 8.0 or later, download and install from the link above.
 
 ---
 
-🛠 SETUP INSTRUCTIONS
+## 🛠 SETUP INSTRUCTIONS
 
 Step 1: Open Terminal (PowerShell or CMD)
 
@@ -33,7 +33,7 @@ These commands will install dependencies, compile the solution, and run all unit
 
 ---
 
-🌱 SET DOTNET_ENVIRONMENT (Optional)
+## 🌱 SET DOTNET_ENVIRONMENT (Optional)
 
 To enable appsettings.Development.json, set the environment to Development.
 
@@ -57,7 +57,7 @@ Command Prompt:
 
 ---
 
-🚀 RUNNING THE CONSOLE APP
+## 🚀 RUNNING THE CONSOLE APP
 
 From Console Project Folder:
 
@@ -90,7 +90,7 @@ Then press F5 to start debugging.
 
 ---
 
-🧯 TROUBLESHOOTING
+## 🧯 TROUBLESHOOTING
 
 Environment variable doesn't appear to be set?
 
@@ -108,7 +108,7 @@ Note: Environment variables set via terminal only apply to that session. You mus
 
 ---
 
-📝 NOTES
+## 📝 NOTES
 
 - Logging is handled using Serilog.
 - Matching logic is implemented per chain:
@@ -116,3 +116,8 @@ Note: Environment variables set via terminal only apply to that session. You mus
   - appsettings.json
   - appsettings.Development.json (if DOTNET_ENVIRONMENT=Development is set)
 
+## Additional Documentation
+
+For a detailed explanation of how design Patterns are used in this project, see:
+
+👉 [Design Patterns Documentation](DesignPatterns.md)
